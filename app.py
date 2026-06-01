@@ -81,7 +81,7 @@ def load_model():
     model.classifier[1] = nn.Linear(model.classifier[1].in_features, len(CLASS_NAMES))
     
     # Load bobot yang sudah di-commit sebelumnya
-    model.load_state_dict(torch.load('efficientnet_b0_waste.pth', map_location=torch.device('cpu')))
+    model.load_state_dict(torch.load('efficientnet_b0_weights.pth', map_location=torch.device('cpu')))
     model.eval()
     return model
 
