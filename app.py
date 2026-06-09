@@ -115,7 +115,7 @@ st.markdown("""
     }
 
     .block-container {
-        padding-top: 0 !important;
+        padding-top: 3.5rem !important;
         padding-bottom: 3rem !important;
         max-width: 760px !important;
     }
@@ -248,7 +248,9 @@ st.markdown("""
         background: linear-gradient(135deg, #f0fdf4, #ecfdf5);
         border-radius: 16px;
         padding: 1.4rem 1.5rem;
+        border: 1px solid #d1fae5;
         border-left: 4px solid #059669;
+        box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.06);
         margin-top: 0.25rem;
     }
     .rec-title {
