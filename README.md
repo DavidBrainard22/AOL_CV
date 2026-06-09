@@ -1,5 +1,6 @@
 # 📦 Streamlit App Starter Kit 
-```
+Waste Image Classification
+Using 
 ⬆️ (Replace above with your app's name)
 ```
 
