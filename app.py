@@ -245,12 +245,11 @@ st.markdown("""
 
     /* ── Recommendation card ── */
     .rec-card {
-        background: linear-gradient(135deg, #f0fdf4, #ecfdf5);
+        background-color: #f8fafc;
         border-radius: 16px;
         padding: 1.4rem 1.5rem;
-        border: 1px solid #d1fae5;
-        border-left: 4px solid #059669;
-        box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.06);
+        border: 1px solid #e2e8f0;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
         margin-top: 0.25rem;
     }
     .rec-title {
